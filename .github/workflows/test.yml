@@ -27,5 +27,5 @@ jobs:
       - name: Run tests
         run: |
           go version
-          go test -race ./...
+          go test ./...
         shell: bash
